@@ -1,2 +1,3 @@
 # jstees
-An ecomm fo js t-shirts
+
+An e-comm fo js t-shirts
