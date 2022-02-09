@@ -1,0 +1,20 @@
+@import url(/css/common.css);
+@import url(/css/header.css);
+
+.login--container {
+  max-width: 25rem;
+  padding: 2rem 1rem;
+  background-color: var(--white);
+  margin: 5rem auto;
+  border-radius: 5px;
+}
+
+.input--label {
+  background-color: var(--white);
+}
+
+.remember--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
