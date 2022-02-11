@@ -1,0 +1,100 @@
+@import url(/css/common.css);
+@import url(/css/header.css);
+
+/* Filter styles */
+
+.filter--section {
+  padding: 3rem 1.5rem;
+  max-width: 15rem;
+  position: fixed;
+  overflow-y: auto;
+  height: 95%;
+  top: 12vh;
+  bottom: 0;
+}
+
+.filter--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter--header .btn--clear {
+  padding: 2px;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.heading--4 {
+  margin-bottom: 0.5rem;
+}
+
+/* main- container styles */
+.main--container {
+  margin: 2rem 0 0 14rem;
+}
+
+.card {
+  cursor: pointer;
+  max-width: 15rem;
+  transition: transform 0.5s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon--badge:hover,
+.wishlist .icon--badge {
+  color: var(--favorite-red);
+}
+
+.grid {
+  gap: 2rem;
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card--review--star {
+  background-color: var(--info-dark);
+}
+
+.offer--percentage {
+  color: var(--info-dark);
+}
+
+.input--primary input[type="radio"],
+.input--primary input[type="checkbox"] {
+  accent-color: var(--info-dark);
+}
+
+@media only screen and (max-width: 1100px) {
+  .grid--4--cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .grid--4--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .filter--section {
+    display: none;
+  }
+  .main--container {
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .grid--4--cols {
+    grid-template-columns: 1fr;
+  }
+}

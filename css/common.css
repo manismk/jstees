@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Licorice&family=Rubik+Beastly&family=Sacramento&family=Shizuru&display=swap");
 @import url("https://fastart.netlify.app/css/fastart.css");
 
+:root {
+  --favorite-red: #ef4444;
+}
+
 body {
   font-family: "inter", sans-serif;
   background-color: var(--bg-color);
