@@ -36,29 +36,6 @@
   margin: 2rem 0 0 14rem;
 }
 
-.card {
-  cursor: pointer;
-  max-width: 15rem;
-  transition: transform 0.5s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.icon--badge:hover,
-.wishlist .icon--badge {
-  color: var(--favorite-red);
-}
-
-.card--review--star {
-  background-color: var(--info-dark);
-}
-
-.offer--percentage {
-  color: var(--info-dark);
-}
-
 .input--primary input[type="radio"],
 .input--primary input[type="checkbox"] {
   accent-color: var(--info-dark);
