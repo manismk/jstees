@@ -51,14 +51,6 @@
   color: var(--favorite-red);
 }
 
-.grid {
-  gap: 2rem;
-}
-
-.grid--4--cols {
-  grid-template-columns: repeat(4, 1fr);
-}
-
 .card--review--star {
   background-color: var(--info-dark);
 }
