@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JsTees | Cart</title>
+    <link rel="stylesheet" href="/css/cart.css" />
+  </head>
+  <body>
+    <header class="nav--container">
+      <div class="logo">JsTees</div>
+      <div class="header--input--container">
+        <input
+          class="header--input"
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search"
+        />
+      </div>
+      <nav class="nav--items">
+        <ul class="list list--space">
+          <li>
+            <a href="#"><i class="fas fa-heart"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-sign-in"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1 class="heading--2 text--center m-t-2">My Cart</h1>
+
+      <section class="main--container m-v-2">
+        <div class="grid grid--2--cols">
+          <div class="cart--container">
+            <div class="card card--horizontal">
+              <div class="card--img--container">
+                <img
+                  src="/assets/pulloverhoodies.jpg"
+                  alt="Man in Blue Suit"
+                  class="img--res"
+                />
+              </div>
+              <div class="card--content--btn--container">
+                <div class="card--content">
+                  <div class="card--title">Stylish Black Tess</div>
+                  <div class="card--manufacturer">By JS fashion</div>
+                  <div class="card--review--container">
+                    <div class="card--review--star">
+                      4.2
+                      <i class="far fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="card--review--number">(256)</div>
+                  </div>
+                  <div class="card--price--container">
+                    <div class="actual--price">₹600</div>
+                    <div class="strike--price">₹1200</div>
+                    <div class="offer--percentage">(50%off)</div>
+                  </div>
+                </div>
+                <div class="cart--quantity">
+                  <label for="quantity">Quantity</label>
+                  <button class="btn btn--quantity">+</button>
+                  <input
+                    type="number"
+                    id="quantity"
+                    class="input--quantity"
+                    min="1"
+                    value="1"
+                  />
+
+                  <button class="btn btn--quantity">-</button>
+                </div>
+                <div class="card--btn">
+                  <button class="btn btn--secondary w-100 m-b-1">
+                    Move to wishlist
+                  </button>
+                  <button class="btn btn--secondary w-100">
+                    Remove from cart
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card card--horizontal">
+              <div class="card--img--container">
+                <img
+                  src="/assets/pulloverhoodies.jpg"
+                  alt="Man in Blue Suit"
+                  class="img--res"
+                />
+              </div>
+              <div class="card--content--btn--container">
+                <div class="card--content">
+                  <div class="card--title">Stylish Black Tess</div>
+                  <div class="card--manufacturer">By JS fashion</div>
+                  <div class="card--review--container">
+                    <div class="card--review--star">
+                      4.2
+                      <i class="far fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="card--review--number">(256)</div>
+                  </div>
+                  <div class="card--price--container">
+                    <div class="actual--price">₹600</div>
+                    <div class="strike--price">₹1200</div>
+                    <div class="offer--percentage">(50%off)</div>
+                  </div>
+                </div>
+                <div class="cart--quantity">
+                  <label for="quantity">Quantity</label>
+                  <button class="btn btn--quantity">+</button>
+                  <input
+                    type="number"
+                    id="quantity"
+                    class="input--quantity"
+                    min="1"
+                    value="1"
+                  />
+
+                  <button class="btn btn--quantity">-</button>
+                </div>
+                <div class="card--btn">
+                  <button class="btn btn--secondary w-100 m-b-1">
+                    Move to wishlist
+                  </button>
+                  <button class="btn btn--secondary w-100">
+                    Remove from cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="price--container">
+            <h2 class="heading--3 m-b-1 text--center">Price details</h2>
+            <div class="price--sub--container">
+              <p class="price--label">Price(2 items)</p>
+              <p class="price--amount">₹2400</p>
+            </div>
+            <div class="price--sub--container">
+              <p class="price--label">Discount</p>
+              <p class="price--amount">-₹1200</p>
+            </div>
+            <div class="price--sub--container">
+              <p class="price--label">Shipping</p>
+              <p class="price--amount">₹100</p>
+            </div>
+            <div class="price--sub--container price--total">
+              <p class="price--label">Total Amount</p>
+              <p class="price--amount">₹1300</p>
+            </div>
+            <button class="btn btn--primary w-100 m-t-1">Place Order</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
