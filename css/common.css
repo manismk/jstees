@@ -26,15 +26,20 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.btn--primary {
+.btn--primary,
+.btn--secondary:hover {
   background-color: var(--primary--color);
   border-color: var(--primary--color);
   color: var(--black);
 }
 
-.btn--primary:hover {
+.btn--primary:hover,
+.btn--secondary {
   background-color: var(--primary--light);
   color: var(--black);
+}
+
+.btn--primary:hover {
   font-weight: 600;
 }
 
