@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JsTees | Products</title>
     <link rel="stylesheet" href="/css/product.css" />
+    <script defer src="/js/filter.js"></script>
   </head>
   <body>
     <header class="nav--container">
-      <div class="logo">JsTees</div>
+      <div class="logo"><a href="/index.html">JsTees</a></div>
       <div class="header--input--container">
         <input
           class="header--input"
@@ -22,13 +23,13 @@
       <nav class="nav--items">
         <ul class="list list--space">
           <li>
-            <a href="#"><i class="fas fa-heart"></i></a>
+            <a href="/pages/wishlist.html"><i class="fas fa-heart"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="/pages/cart.html"><i class="fas fa-shopping-cart"></i></a>
           </li>
           <li>
-            <a href="#"><i class="fas fa-sign-in"></i></a>
+            <a href="/pages/login.html"><i class="fas fa-sign-in"></i></a>
           </li>
         </ul>
       </nav>
@@ -36,7 +37,12 @@
 
     <main>
       <h1 class="heading--2 text--center m-t-2">Featured Products</h1>
+      <button class="filter--button">
+        Filter <i class="fas fa-arrow-right"></i>
+      </button>
+      <div class="overlay hide"></div>
       <section class="filter--section">
+        <button class="filter--close">&times</button>
         <div class="filter--header m-v-1">
           <h3 class="heading--3">Filter</h3>
           <button class="btn btn--clear">Clear</button>
