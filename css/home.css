@@ -20,6 +20,7 @@
   position: relative;
   background-color: var(--black);
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .category--image img {
@@ -28,6 +29,7 @@
   transform: scale(1.05);
   transition: transform, filter 0.5s ease;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .category--name {
@@ -44,7 +46,7 @@
 
 .category--image img:hover {
   filter: opacity(100%);
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 .action--container {
