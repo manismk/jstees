@@ -54,9 +54,6 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .nav--container {
-    flex-wrap: wrap;
-  }
   .nav--items {
     width: 100%;
   }
