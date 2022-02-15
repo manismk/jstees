@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JsTees | Profile</title>
+    <link rel="stylesheet" href="/css/profile.css" />
+  </head>
+  <body>
+    <header class="nav--container">
+      <div class="logo"><a href="/index.html">JsTees</a></div>
+      <div class="header--input--container">
+        <input
+          class="header--input"
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search"
+        />
+      </div>
+      <nav class="nav--items">
+        <ul class="list list--space">
+          <li>
+            <a href="/pages/wishlist.html"><i class="fas fa-heart"></i></a>
+          </li>
+          <li>
+            <a href="/pages/cart.html"><i class="fas fa-shopping-cart"></i></a>
+          </li>
+          <li>
+            <a href="/pages/login.html"><i class="fas fa-sign-in"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="user--container">
+        <h1 class="heading--3 text--center">My Account</h1>
+        <div class="avatar--container">
+          <img
+            src="https://randomuser.me/api/portraits/men/41.jpg"
+            alt="Randomuser"
+            class="avatar avatar--circle avatar--xl"
+          />
+        </div>
+        <p class="username">Username</p>
+        <div class="email--container">
+          <p class="email--label">Email</p>
+          <p class="email--content">test@test.in</p>
+        </div>
+        <div class="m-t-1 m-h-1">
+          <button class="btn btn--primary">Logout</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
